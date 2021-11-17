@@ -1,0 +1,141 @@
+@charset "utf-8"; 
+
+
+
+/*视频播放器*/
+.dplayer-setting {
+    display: none !important;
+}
+.dplayer-full button.dplayer-icon.dplayer-full-in-icon {
+    display: none !important;
+}
+.jinsom-video-player-navbar {
+    background-color: #000 !important;
+    position: fixed;
+}
+.jinsom-video-player-navbar .left i {
+    color: #fff;
+}
+.dplayer:-webkit-full-screen video.dplayer-video.dplayer-video-current {
+    height: 100% !important;
+}
+a.dplayer-icon.dplayer-camera-icon {
+    display: none !important;
+}
+div.dplayer-menu.dplayer-menu-show {
+display: none !important;
+}
+
+.jinsom-single video {
+    max-width: 100%;
+    height: auto;
+}
+.jinsom-single.video .jinsom-video-img {
+    margin: 0;
+    margin-bottom: 4vw;
+}
+.jinsom-single.video {
+    padding: 4vw;
+}
+.dplayer:-webkit-full-screen {
+    margin-top: 0vw !important;
+    height: inherit !important;
+}
+#jinsom-video {
+    background-color: #000;
+    padding-top: 0 !important;
+}
+
+
+/*======================================内容模版样式============================================*/
+
+/*视频模块*/
+.jinsom-video-img {
+    height: 50vw;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-top: 2vw;
+    border-radius: 2vw;
+    margin: 5vw 4vw 0vw;
+    background-color: #4d4d4d;
+}
+.jinsom-video-img.custom {
+    margin: 0 0 3vw;
+}
+.jinsom-video-img i {
+    background: rgba(0,0,0,.4);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    color: #fff;
+    border-radius: 50%;
+    width: 15vw;
+    height: 15vw;
+    text-align: center;
+    line-height: 15vw;
+    margin-top: -7.5vw;
+    margin-left: -7.5vw;
+    font-size: 7vw;
+}
+.jinsom-bofang-:before {
+    content: "\e653";
+    margin-left: 1.5vw;
+}
+.jinsom-video-tips {
+    display: flex;
+    background-color: #333;
+    margin: 4vw 4vw 0;
+    border-radius: 2vw;
+    height: 50vw;
+    align-items: center;
+    justify-content: center;
+    color: #f1f1f1;
+    font-size: 4vw;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+}
+.jinsom-video-tips-shade {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 2vw;
+}
+.jinsom-video-tips-content {
+    text-shadow: 0 0 4px rgba(0,0,0,0.5);
+    position: relative;
+    z-index: 2;
+}
+.jinsom-single .jinsom-video-tips {
+    margin: 0 0 4vw;
+}
+.jinsom-video-tips .btn {
+    width: 25vw;
+    text-align: center;
+    background-color: var(--jinsom-color);
+    padding: 1.5vw;
+    border-radius: 1vw;
+    margin: 3vw auto 0;
+    color: #fff;
+}
+.jinsom-video-tips .btn a {
+    color: #fff;
+}
+.jinsom-video-tips .text i {
+    vertical-align: -0.5vw;
+}
+.jinsom-video-tips .btn i {
+    vertical-align: -0.5vw;
+    font-size: 5vw;
+}
+.jinsom-video-tips .btn.had {
+    background-color: #bbb;
+    text-shadow: none;
+}
+.jinsom-video-tips .btn.follow-see {
+    padding: 1vw;
+}
