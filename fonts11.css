@@ -5,7 +5,6 @@
   url('iconfont.woff?t=1588826155687') format('woff'),
   url('iconfont.ttf?t=1588826155687') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
   url('iconfont.svg?t=1588826155687#iconfont') format('svg'); /* iOS 4.1- */
-
 }
 
 .iconfont {
@@ -75,6 +74,5 @@
 .iconshipin:before {
   content: "\e64f";
 }
-
 
 <<展开
