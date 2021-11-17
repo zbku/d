@@ -1,36 +1,3 @@
-@font-face {font-family:'Gotham-Book';src:url('../fonts/Gotham-Book.otf');src:url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),url('../fonts/Gotham-Book.woff2') format('woff2'),url('../fonts/Gotham-Book.woff') format('woff'),url('../fonts/Gotham-Book.ttf') format('truetype'),url('../fonts/Gotham-Book.svg#webfont') format('svg');}
-*{ margin:0; padding:0 ;}
-html{ -webkit-text-size-adjust:none;/*只针对低版本谷歌*/}
-body{background:#f9f9f9;position:relative;font-size:15px;line-height:1.5;font-family: 'Gotham-Book', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB","Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;color:#333}
-a{color: #062743;text-decoration:none;}
-a:hover{color: #ff5f33}
-li{ list-style-type:none;}
-img{ border:none; vertical-align:middle;}
-.container{width: 1200px;margin: 0 auto}
-.clear{ clear:both;}
-.mt-50 { margin-top: 50px }
-.mb-50 { margin-bottom: 50px }
-.menu {position: fixed;top: 0;left: 0;right: 0;z-index: 999;height: 70px;transition: all .3s ease 0s;
-    webkit-box-shadow: 0px 5px 10px 0px rgba(17, 58, 93, 0.1);
-    -ms-box-shadow: 0px 5px 10px 0px rgba(17, 58, 93, 0.1);
-    box-shadow: 0px 5px 10px 0px rgba(17, 58, 93, 0.1);}
-.menu .logo-a{float: left;width: 140px;height: 50px;margin-right: 50px;margin-top: 10px}
-.menu .logo-a img{width: 100%}
-.menu .navbar{width: 950px;float: left;}
-.menu .navbar li{float: left;margin-top: 10px}
-.menu .navbar li a{color: #ff5f33;padding: 0 15px;line-height: 50px;}
-.menu .navbar li a:hover,.menu .navbar .on a{color: #ff5f33}
-.menu .sou{float: right;line-height: 70px;color: #fff}
-.active{background: #fff;-webkit-transition: all .3s ease-out;transition: all .3s ease-out;}
-.active .navbar li a{color: #062743;}
-.active .sou{color: #062743}
-.search{position: fixed;top:-70px;left:0;right:0;background: #fff;height:50px;transition: top 0.3s cubic-bezier(.4,0,.2,1);padding:10px 0;z-index: 9999;}
-.show{top: 0;}
-.search .search-form{position: absolute;width: 1200px}
-.search .search-input{width:100%;height: 50px;font-size: 17px;border:none;}
-.search .icon{position: absolute;right:0;top:10px;font-size: 30px;cursor: pointer;}
-.search .btnblue {position: absolute;right:70;top:18px;font-size: 20px;cursor: pointer;}
-
 
 @charset "utf-8"; 
 :root {
@@ -1380,7 +1347,7 @@ td, th {
 /*登录模块小工具*/
 .jinsom-sidebar-user-info .bg {
     background-size: cover;
-    height: 100px;
+    height: 360px;
     position: relative;
 }
 .jinsom-sidebar-user-info .avatarimg {
