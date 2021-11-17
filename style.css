@@ -1,4 +1,4 @@
-@font-face {font-family:'Gotham-Book';src:url('../fonts/Gotham-Book.otf');src:url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'),url('../fonts/Gotham-Book.woff2') format('woff2'),url('../fonts/Gotham-Book.woff') format('woff'),url('../fonts/Gotham-Book.ttf') format('truetype'),url('../fonts/Gotham-Book.svg#webfont') format('svg');}
+@font-face {font-family:'Gotham-Book';src:url('/Gotham-Book.otf');src:url('/Gotham-Book.eot?#iefix') format('embedded-opentype'),url('/Gotham-Book.woff2') format('woff2'),url('/Gotham-Book.woff') format('woff'),url('/Gotham-Book.ttf') format('truetype'),url('/Gotham-Book.svg#webfont') format('svg');}
 *{ margin:0; padding:0 ;}
 html{ -webkit-text-size-adjust:none;/*只针对低版本谷歌*/}
 body{background:#f9f9f9;position:relative;font-size:15px;line-height:1.5;font-family: 'Gotham-Book', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB","Microsoft Yahei UI", "Microsoft Yahei", "Source Han Sans CN", sans-serif;color:#333}
@@ -31,7 +31,7 @@ img{ border:none; vertical-align:middle;}
 .search .search-input{width:100%;height: 50px;font-size: 17px;border:none;}
 .search .icon{position: absolute;right:0;top:8px;font-size: 24px;cursor: pointer;}
 
-.banner {color: #fff;text-align: center;height: 390px;padding-top: 110px;background-color: #2d3757;background-image: url(../images/banner.jpg);background-position: center center;background-size: cover;background-repeat: no-repeat;position: relative;}
+.banner {color: #fff;text-align: center;height: 390px;padding-top: 110px;background-color: #2d3757;background-image: url(/banner.jpg);background-position: center center;background-size: cover;background-repeat: no-repeat;position: relative;}
 .banner h2{font-size:35px;font-weight:700;margin-bottom:10px}
 .banner p{font-size:16px;color: #fff}
 .banner a{color: #fff; font-size:18px;display:inline-block;padding:10px 15px 10px 0;}
